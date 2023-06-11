@@ -32,6 +32,7 @@
 .nftImg:hover{
   opacity: .5;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .title{
@@ -45,10 +46,11 @@
 .cardDetails{
   display: relative;
   border-bottom: solid 1pt hsl(215, 32%, 27%);
+  font-weight: 400;
 }
 
 .description{
-  padding-right: 1.5rem;
+  padding-right: 1rem;
   font-size: 18px;
   line-height: 1.5;
   color: hsl(215, 51%, 70%);
