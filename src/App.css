@@ -1,5 +1,76 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  text-align: center;
+  margin: auto;
+  /* text-align: left; */
+  /* align-items: center; */
+  place-items: center;
 }
+
+.App {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  background:  hsl(216, 50%, 16%);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  color: white;
+}
+
+.nftImg{
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.title{
+  font-size: x-large;
+}
+
+.cardDetails{
+  display: relative;
+  border-bottom: solid 1pt hsl(215, 32%, 27%);
+}
+
+.description{
+  padding-right: 1.5rem;
+  font-size: 18px;
+  line-height: 1.5;
+  color: hsl(215, 51%, 70%);
+}
+
+.priceDuration{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem;
+}
+.ethIcon, .duration{
+  margin-right: .4rem;
+}
+.price{
+  color:  hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+.duration{
+  margin-left: auto;
+}
+.time{
+  color: hsl(215, 51%, 70%);
+}
+
+.author{
+  margin-top: 1rem;
+  display: flex;
+  place-items: center;
+}
+
+.authorImg{
+  width: 35px;
+  margin-right: 1rem;
+  border: solid 1px white;
+  border-radius: 100%;
+}
+.authName span{
+  color: hsl(215, 51%, 70%);
+}
+
