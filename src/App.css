@@ -17,13 +17,29 @@
   color: white;
 }
 
+
+.cardImg{
+  background-color:hsl(178, 100%, 50%);
+  border-radius: 1.1rem;
+}
 .nftImg{
   width: 100%;
   border-radius: 1rem;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.nftImg:hover{
+  opacity: .5;
+  cursor: pointer;
 }
 
 .title{
   font-size: x-large;
+}
+.title:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
 
 .cardDetails{
@@ -70,7 +86,10 @@
   border: solid 1px white;
   border-radius: 100%;
 }
-.authName span{
+.authSpan{
   color: hsl(215, 51%, 70%);
 }
-
+.name:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}

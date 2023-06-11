@@ -6,12 +6,12 @@ import clock from './images/icon-clock.svg'
 import avatar from './images/image-avatar.png'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div className="App">
-        <img src={dImg} alt="Equilibrium" className='nftImg' />
+        <div className="cardImg">
+          <img src={dImg} alt="Equilibrium" className='nftImg' />
+        </div>
         <div className="cardDetails">
           <h1 className="title">
           Equilibrium #3429
@@ -35,7 +35,7 @@ function App() {
         </div>
         <div className="author">
           <img src={avatar} alt="" className="authorImg" />
-          <p className="authName"><span className="authSpan">Creation of</span> Jules Wyvern</p>
+          <p className="authName"><span className="authSpan">Creation of</span> <span className="name"> Jules Wyvern</span></p>
         </div>
       {/*
 
