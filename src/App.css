@@ -1,8 +1,6 @@
 #root {
   max-width: 1280px;
   margin: auto;
-  /* text-align: left; */
-  /* align-items: center; */
   place-items: center;
 }
 
@@ -10,7 +8,7 @@
   max-width: 350px;
   display: flex;
   flex-direction: column;
-  margin: 2rem auto;
+  margin: 0 2rem 0 0;
   background:  hsl(216, 50%, 16%);
   padding: 1.5rem;
   border-radius: 1rem;
@@ -29,7 +27,7 @@
   padding: 0;
   display: block;
 }
-.nftImg:hover{
+.nftImg:active{
   opacity: .5;
   cursor: pointer;
   font-weight: 600;
@@ -38,7 +36,7 @@
 .title{
   font-size: x-large;
 }
-.title:hover{
+.title:active{
   color: hsl(178, 100%, 50%);
   cursor: pointer;
 }
@@ -91,7 +89,7 @@
 .authSpan{
   color: hsl(215, 51%, 70%);
 }
-.name:hover{
+.name:active{
   color: hsl(178, 100%, 50%);
   cursor: pointer;
 }
